@@ -1,3 +1,7 @@
+DROP DATABASE IF EXIST banktani;
+CREATE DATABASE banktani;
+USE banktani;
+
 DROP TABLE IF EXISTS `tbl_alokasi_investasi`;
 CREATE TABLE `tbl_alokasi_investasi` (
   `id` int(11) AUTO_INCREMENT PRIMARY KEY,
